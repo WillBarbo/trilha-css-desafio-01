@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("./fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+.banner-content {
+  width: 1440px;
+  height: 605px;
+  background-color: #cad1d4;
+  text-align: center;
+}
+
+.logo {
+  border-radius: 268px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: transparent;
+  width: 326px;
+  height: 57px;
+  border: 2px solid;
+  border-image: linear-gradient(#3BA1CD, #1572B7) 1;
+  padding: 19px auto;
+  color: #31A8DD;
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 3.36px;
+}
+
