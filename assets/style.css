@@ -10,12 +10,15 @@
   src: url("./fonts/Raleway/Raleway-VariableFont_wght.ttf");
 }
 
+body {
+  background-color: black;
+}
+
 .banner-content {
-  width: 1440px;
   height: 605px;
-  background-color: rgb(200, 194, 194);
   text-align: center;
   padding-top: 56px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url('./images/banner.png');
 }
 
 .logo {
@@ -66,5 +69,12 @@ button {
   font-size: 16px;
   letter-spacing: 3.36px;
   text-transform: uppercase;
+}
+
+#course-content {
+  width: auto;
+  border-top: 1px solid rgba(51, 168, 219, 1);
+  border-bottom: 1px solid rgba(51, 168, 219, 1);
+  color: rgba(51, 168, 219, 1);
 }
 
